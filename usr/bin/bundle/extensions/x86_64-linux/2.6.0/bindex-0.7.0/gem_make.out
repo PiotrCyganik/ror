@@ -1,0 +1,15 @@
+current directory: /home/piotr/test_app/usr/bin/bundle/gems/bindex-0.7.0/ext/skiptrace
+/home/piotr/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/piotr/.rvm/rubies/ruby-2.6.3/lib/ruby/2.6.0 -r ./siteconf20190621-6682-dl6w5q.rb extconf.rb
+creating Makefile
+
+current directory: /home/piotr/test_app/usr/bin/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/piotr/test_app/usr/bin/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/cruby.so
+
+current directory: /home/piotr/test_app/usr/bin/bundle/gems/bindex-0.7.0/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20190621-6682-8xgrhv/skiptrace
